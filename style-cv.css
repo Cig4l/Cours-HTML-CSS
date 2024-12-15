@@ -1,0 +1,45 @@
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    line-height: 1.1rem;
+}
+
+.main-container {
+    margin: 10%;
+}
+
+.cv-container {
+    padding : 5%;
+    border: 1px solid black;
+}
+
+.section-header {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.col-span-1 {
+    grid-column: span 1 /span 1;
+}
+
+.col-span-3 {
+    grid-column: span 3 /span 3;
+}
+
+.profile-pic-container {
+    margin-top: 1.25rem;
+    width: 9rem;
+}
+
+.profile-pic-container img {
+    margin-left: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#contact-info-container {
+    display: flex;
+    gap: 5%;
+    justify-content: flex-start;
+    margin: 0;
+}
